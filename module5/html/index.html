@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Module 5</title>
+        <link href="../css/index.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>Scrimba</h1>
+            <h2>Module 5</h2>
+        </header>
+        <main>
+            <div class="container">
+                    <!-- Game Part -->
+                    <div class="gameDisplay">
+                        <h1 id="winnerAnnounce">Player 1 Turn</h1>
+                        
+                        <div class="diceDesciriptionPanel">
+                            <div id="player1" class="player1container">
+                                <h2>Player 1</h2>
+                                <h2>Score:</h2>
+                                <h3 id="player1ScoreBoard">0</h3>
+                                <div class="roundFine">
+                                    <div class="clm">
+                                        <h2>Rounds</h2>
+                                        <h2>Penalty</h2>
+                                    </div>
+                                    <div class="clm">
+                                        <div id="player1History"></div>
+                                        <div id="player1Fine"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="diceDisplay">
+                                <h1 id="player1Score">0</h1>
+                                <h1 id="player2Score">0</h1>
+                            </div>
+                            
+                            <div id="player2" class="player2container">
+                                <h2>Player 2</h2>
+                                <h2>Score:</h2>
+                                <h3 id="player2ScoreBoard">0</h3>
+                                <div class="roundFine">
+                                    <div class="clm">
+                                        <h2>Penalty</h2>
+                                        <h2>Rounds</h2>
+                                    </div>
+                                    <div class="clm">
+                                        <div id="player2Fine"></div>
+                                        <div id="player2History"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="buttons">
+                            <button id="start">Start</button>
+                            <button id="roll">Roll Dice</button>
+                            <button id="next">Next Round</button>
+                            <button id="end">End Game</button>
+                        </div>
+                    </div>
+            </div>
+            
+        </main>
+        <section>
+            <h4>#<span> To win</span> Get ==> <span>3 Rounds</span> || # For <span> Dice 1 </span> ==><span> -10 </span> || # For <span> Dice 6 </span>==><span> +10 </span></h4>
+        </section>
+        <script src="../js/index.js"></script>
+    </body>
+</html>
+

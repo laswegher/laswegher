@@ -1,0 +1,210 @@
+body{
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+    color: #eae2b7;
+    background-color: #d62828;
+}
+/* ---------------- Header -------------- */
+header{
+    background-color: #003049;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1{
+    font-weight: 600;
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+header h2{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+/* ---------------- Main ---------------- */
+main{
+    background-color: #d62828;
+}
+
+main .container h1{
+    margin-top: 0;
+}
+
+.gameAmount{
+    display: flex;
+}
+.gameAmount input {
+    height: 40px;
+    width: 40px;
+    background-color: #003049;
+    color: whitesmoke;
+    font-size: 30px;
+    margin: 0;
+}
+.gameAmount h3 {
+    margin-bottom: 20px;
+}
+.diceDisplay{
+    display: flex;
+    color: #003049;
+    font-size: 60px;
+    align-items: center;
+    justify-content: space-around;
+}
+.diceDisplay h1{
+    margin: 0px;
+    padding: 30px;
+}
+.gameDisplay{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.diceDisplay #player1Score,
+.diceDisplay #player2Score{
+    background-color: white;
+    border: 2px solid #d62828;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.gameDisplay h1{
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.gameDisplay button{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    margin: 10px 0;
+    background-color: #003049;
+    border: none;
+}
+
+/* buttons */
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top:30px;
+    margin-bottom:20px;
+    
+}
+#start{
+    position: absolute;
+}
+
+#roll{
+    position: relative;
+    display: none;
+}
+
+#next{
+    position: absolute;
+    display: none;
+}
+
+#end{
+    position: absolute;
+    display: none;
+    
+}
+
+/* ---------------- Section -------------- */
+section{
+    text-align: center;
+}
+section h4 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+/* ---------------- Container -------------- */
+.container{
+    max-width: 800px;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    border: 5px solid #eae2b7;
+}
+
+.diceDesciriptionPanel {
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fefae0;
+
+}
+
+.player1container{
+    padding-left: 20px;
+}
+
+.player2container{
+ text-align: right;
+ padding-right: 20px;
+}
+.player1container h2,
+.player2container h2,
+.player1container h3,
+.player2container h3{
+    margin-top: 5px;
+    margin-bottom: 5px; 
+}
+
+.player1container,
+.player2container{
+    width: 200px;
+    background-color: #003049;
+}
+
+/* history */
+ul{
+    font-size: 20px;
+    list-style: none;
+}
+#player1History ul{
+    
+    padding: 0;
+    
+}
+
+/* animation */
+
+.animation{
+    box-shadow: 10px 10px 100px #ffffff;
+}
+span{
+    color: #003049;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.roundFine{
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.clm{
+    width: 180px;
+    display: flex;
+}
+
+.player2container .roundFine {
+    
+    align-items: flex-end;
+}
+
+.player1container .clm{
+    justify-content: space-between;
+}
+.player2container .clm{
+    justify-content: space-between;
+}
